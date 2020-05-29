@@ -74,3 +74,5 @@ gem 'kaminari'
 gem 'rspec-rails'
 gem 'factory_bot_rails'
 gem 'jquery-rails'
+gem 'sqlite3', group: [:development, :test]
+gem 'pg', group: :production
